@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/perfect-period-295613/scrapy_opium', '.']
+  timeout: 2000s
+timeout: 2000s
